@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		810CC2342FFF400F00C2FB45 /* WWClampedValue in Frameworks */ = {isa = PBXBuildFile; productRef = 810CC2332FFF400F00C2FB45 /* WWClampedValue */; };
+		810CC2372FFF420A00C2FB45 /* WWClampedValue in Frameworks */ = {isa = PBXBuildFile; productRef = 810CC2362FFF420A00C2FB45 /* WWClampedValue */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				810CC2342FFF400F00C2FB45 /* WWClampedValue in Frameworks */,
+				810CC2372FFF420A00C2FB45 /* WWClampedValue in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = Example;
 			packageProductDependencies = (
 				810CC2332FFF400F00C2FB45 /* WWClampedValue */,
+				810CC2362FFF420A00C2FB45 /* WWClampedValue */,
 			);
 			productName = Example;
 			productReference = 8177C5772F91CB0F00ACEA3E /* Example.app */;
@@ -101,7 +104,7 @@
 			mainGroup = 8177C56E2F91CB0F00ACEA3E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				810CC2322FFF400F00C2FB45 /* XCLocalSwiftPackageReference "../../@WWClampedValue" */,
+				810CC2352FFF420900C2FB45 /* XCRemoteSwiftPackageReference "WWClampedValue" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8177C5782F91CB0F00ACEA3E /* Products */;
@@ -344,16 +347,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		810CC2322FFF400F00C2FB45 /* XCLocalSwiftPackageReference "../../@WWClampedValue" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../@WWClampedValue";
+/* Begin XCRemoteSwiftPackageReference section */
+		810CC2352FFF420900C2FB45 /* XCRemoteSwiftPackageReference "WWClampedValue" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWClampedValue";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		810CC2332FFF400F00C2FB45 /* WWClampedValue */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWClampedValue;
+		};
+		810CC2362FFF420A00C2FB45 /* WWClampedValue */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 810CC2352FFF420900C2FB45 /* XCRemoteSwiftPackageReference "WWClampedValue" */;
 			productName = WWClampedValue;
 		};
 /* End XCSwiftPackageProductDependency section */

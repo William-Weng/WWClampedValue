@@ -11,15 +11,13 @@
 
 `WWClampedValue` is a lightweight and elegant [`Swift Property Wrapper`](https://www.swiftbysundell.com/articles/property-wrappers-in-swift/) designed to clamp any [`Comparable`](https://www.youtube.com/watch?v=ahChqPknjGs) value within a specified `ClosedRange`. It is perfect for limiting UI alpha values, game scores, age inputs, and more.
 
----
+![WWClampedValue](https://github.com/user-attachments/assets/e37ee4d5-0078-4a17-a330-8079b4dcb71f)
 
 ## 🚀 [Features](https://peterpanswift.github.io/iphone-bezels/)
 
 - **Type Safe**: Built with generics, supporting all types conforming to `Comparable` (e.g., `Int`, `Double`, `Float`).
 - **Elegant Syntax**: Seamlessly combines Swift Property Wrappers with `ClosedRange` syntax (e.g., `0...100`).
 - **Underlying Extension**: Exposes a `.clamped(to:)` method on `Comparable`, allowing usage outside of property wrapper contexts.
-
----
 
 ## 📦 Installation (Swift Package Manager)
 
@@ -36,8 +34,6 @@ dependencies: [
     .package(url: "https://github.com/William-Weng/WWClampedValue", from: "1.0.0")
 ]
 ```
-
----
 
 ## 💡 Usage Examples
 

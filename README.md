@@ -11,15 +11,13 @@
 
 `WWClampedValue` 是一個輕量、優雅的[`屬性包裝器`](https://medium.com/jeremy-xue-s-blog/swift-程式語言-property-wrappers-574e25cdcd44)，專門用來將任何符合 [`Comparable`](https://www.youtube.com/watch?v=EBNZF-UbBv0) 協定的數值限制在指定的閉區間（Closed Range）範圍內。適用於限制 UI 元件透明度、遊戲分數、年齡輸入等情境。
 
----
+![WWClampedValue](https://github.com/user-attachments/assets/e37ee4d5-0078-4a17-a330-8079b4dcb71f)
 
 ## 🚀 [特色](https://peterpanswift.github.io/iphone-bezels/)
 
 - **型別安全**：基於泛型設計，支援 `Int`、`Double`、`Float` 等所有符合 `Comparable` 的型別。
 - **語法優雅**：結合 Swift Property Wrapper 與 `ClosedRange` 語法（例如 `0...100`）。
 - **底層擴充**：額外提供 `Comparable` 的 `.clamped(to:)` 擴充方法，非 Property Wrapper 情境也能直接使用。
-
----
 
 ## 📦 安裝方式 (Swift Package Manager)
 
@@ -36,8 +34,6 @@ dependencies: [
     .package(url: "https://github.com/William-Weng/WWClampedValue", from: "1.0.0")
 ]
 ```
-
----
 
 ## 💡 使用範例
 

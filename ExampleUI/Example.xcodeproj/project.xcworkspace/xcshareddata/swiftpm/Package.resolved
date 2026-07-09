@@ -1,0 +1,15 @@
+{
+  "originHash" : "4083a68095d105bae5ab4f1f087f1cb8ef0d9fc43f277bfdf6ea818808330f01",
+  "pins" : [
+    {
+      "identity" : "wwclampedvalue",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWClampedValue",
+      "state" : {
+        "revision" : "fe45828027952ab76be2c58c981f422f414a5867",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
